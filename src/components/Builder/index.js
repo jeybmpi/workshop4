@@ -2,7 +2,7 @@ import React, { Component, useState } from "react";
 import Burger from "../Burger";
 import ControlPanel from "../ControlPanel";
 import { Link } from "react-router-dom";
-import { connect } from 'react-redux';
+import { connect } from 'react-redux'; // add redux
 
 // Actions
 const confirmBurger = price => ({
