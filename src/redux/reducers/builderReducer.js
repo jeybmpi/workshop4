@@ -1,4 +1,4 @@
-import { builderTypes } from "../types/builderTypes"
+import { builderTypes } from "../types/builderTypes" //importTypes
 
 export const userReducer = (state = {}, action) => {
     switch (action.type) {
